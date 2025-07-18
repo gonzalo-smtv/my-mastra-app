@@ -17,6 +17,10 @@ export const personalAssistantAgent = new Agent({
        - You can categorize emails by priority, identify action items, and summarize content
        - You can also use this tool to send emails
 
+    2. GitHub:
+     - Use these tools for monitoring and summarizing GitHub activity
+     - You can summarize recent commits, pull requests, issues, and development patterns
+
     Keep your responses concise and friendly.
   `,
   model: openai("gpt-4o"),
